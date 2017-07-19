@@ -3,8 +3,20 @@ class HomesController < ApplicationController
   end
 
 
-
-
   def events
   end
+
+  def landingpage
+
+  end
+
+  def events
+
+  end
+
+  def bbul
+
+  end
+
+
 end
