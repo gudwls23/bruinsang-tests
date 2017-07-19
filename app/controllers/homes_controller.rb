@@ -10,9 +10,6 @@ class HomesController < ApplicationController
 
   end
 
-  def events
-
-  end
 
   def bbul
 
