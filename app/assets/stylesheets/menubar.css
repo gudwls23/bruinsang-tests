@@ -1,0 +1,69 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+*{
+margin: 0;
+padding: 0;
+}
+html {
+  height: 100%;
+  background-color: #FFFFFF;
+}
+nav {
+  background-color: #000000;
+  overflow: hidden;
+}
+nav ul {
+  text-align: center;
+}
+nav ul li {
+  display: inline-block;
+}
+nav ul li a {
+  padding: 20px;
+  font-family: "Open Sans";
+  text-transform: uppercase;
+  color: #808080;
+  font-size: 14px;
+  text-decoration: none;
+  display: block;
+}
+nav ul li a:hover {
+  background: rgba(255, 255, 255, 0.1);
+  color: #3498DB;
+}
+.box{
+  height: 300px;
+  width: 100%;
+}
+#babybear{
+  /*height: 300px;*/
+  /*width: 100%;*/
+  background-image: url("http://thewallpapershd.com/wp-content/uploads/2016/11/Cute-Baby-and-Teddy-Bear-Wallpaper.jpg");
+  background-size: 50% auto;
+}
+#transplayer{
+  /*height: 300px;*/
+  /*width: 100%;*/
+  position: absolute;
+  background: rgba(0, 0, 0, 0.5);
+  top: 58.5px;
+  left: 0;
+  z-index: 10;
+}
+/*LOGO*/
+#bru{
+  z-index: 20;
+}
+#formlayer{
+  height: 500px;
+  width: 80%;
+  position: relative;
+  top: 240px;
+  margin: auto;
+  background-color: rgba(255, 255, 255, 1);
+  z-index: 30;
+  box-shadow: 0px 0px 7px #c2c2c2;
+}
+h3{
+  text-align: center;
+  color: #000000;
+}
