@@ -1,8 +1,9 @@
 Rails.application.routes.draw do
-  get 'homes/index'
-  root 'homes#landingpage'
-  root 'homes#event'
-  root 'homes#bbul'
+  get 'homes/index';
+  get 'homes/events';
+  get 'homes/index';
+  get 'homes#landingpage';
+  get 'homes#bbul';
 
 
 
